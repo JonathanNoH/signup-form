@@ -123,6 +123,7 @@ body {
   text-align: center;
   width: 100%;
   background-color: rgba(10, 10, 10, 0.5);
+  font-size: 0.75rem;
 }
 
 .img-credit > a {
