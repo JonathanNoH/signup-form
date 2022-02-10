@@ -78,12 +78,18 @@ select {
   src: url("Norse-Bold.otf");
 }
 
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto-Medium.ttf");
+}
+
 .logo-text {
   font-family: Norse-bold, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body {
   display: flex;
+  background-color: rgb(250, 250, 250);
 }
 
 .left {
@@ -93,7 +99,7 @@ body {
 }
 
 .left > img {
-  object-fit: fill;
+  object-fit: cover;
   height: 100%;
   width: 100%;
 }
@@ -131,4 +137,47 @@ body {
 
 .logo-img > img {
   max-height: 6rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.light-block {
+  background-color: white;
+  box-shadow: 0 0.125rem 0.5rem rgb(197, 197, 197);
+  padding: 1rem 2.25rem;
+}
+
+.info {
+  font-weight: 500;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+}
+
+.right > .info {
+  padding: 0 2.25rem;
+}
+
+.form-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1em 4em;
+  margin: 1rem 0;
+}
+
+.form-block > div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  color: rgb(88, 88, 88);
+  letter-spacing: .125em;
 }
