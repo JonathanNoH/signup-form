@@ -72,3 +72,12 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+@font-face {
+  font-family: Norse-bold;
+  src: url("Norse-Bold.otf");
+}
+
+.logo-text {
+  font-family: Norse-bold, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
