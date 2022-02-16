@@ -182,3 +182,14 @@ label {
   color: rgb(88, 88, 88);
   letter-spacing: .125em;
 }
+
+form button {
+  margin: 2.25rem;
+  padding: 0.5em 2em;
+  background-color: #5f838f;
+  color:rgb(250, 250, 250);
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  border-radius: 0.5em;
+  border: none;
+  box-shadow: 0.125em 0.125em 0.5em rgb(197, 197, 197);
+}
