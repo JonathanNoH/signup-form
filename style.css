@@ -83,6 +83,11 @@ select {
   src: url("Roboto-Medium.ttf");
 }
 
+@font-face {
+  font-family: Roboto-light;
+  src: url("Roboto-Regular.ttf");
+}
+
 .logo-text {
   font-family: Norse-bold, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -200,5 +205,13 @@ form button {
 
 .right p {
   margin: -2.25rem 2.25rem;
+  font-family: Roboto-Light, Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+.right p a {
+  text-decoration: none;
   font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #5f838f;
 }
