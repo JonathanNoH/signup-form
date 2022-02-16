@@ -183,6 +183,10 @@ label {
   letter-spacing: .125em;
 }
 
+input {
+  border-radius: 0.25em;
+}
+
 form button {
   margin: 2.25rem;
   padding: 0.5em 2em;
@@ -192,4 +196,9 @@ form button {
   border-radius: 0.5em;
   border: none;
   box-shadow: 0.125em 0.125em 0.5em rgb(197, 197, 197);
+}
+
+.right p {
+  margin: -2.25rem 2.25rem;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
