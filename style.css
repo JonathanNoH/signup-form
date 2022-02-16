@@ -190,6 +190,7 @@ label {
 
 input {
   border-radius: 0.25em;
+  border: 1px solid #E5E7EB;
 }
 
 form button {
@@ -214,4 +215,18 @@ form button {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #5f838f;
+}
+
+input:invalid {
+  border: 3px solid red;
+}
+
+.div-password.error::after {
+  content: '* Passwords must match';
+  color: red;
+  font-size: 0.75rem;
+}
+
+.error input{
+  border: 1px solid red;
 }

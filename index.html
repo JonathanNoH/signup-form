@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-Up Page</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="left">
@@ -44,14 +44,14 @@
                             <label for="phone-number">PHONE NUMBER</label>
                             <input type="tel" name="phone-number" id="phone-number">
                         </div>
-                            <div>
-                                <label for="user-password">PASSWORD</label>
-                                <input type="password" name="user-password" id="user-password">
-                            </div>
-                            <div>
-                                <label for="confirm-password">CONFIRM PASSWORD</label>
-                                <input type="password" name="confirm-password" id="confirm-password">
-                            </div>
+                        <div class="div-password">
+                            <label for="user-password">PASSWORD</label>
+                            <input type="password" name="user-password" id="user-password">
+                        </div>
+                        <div class="div-confirm">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password">
+                        </div>
                     </div>
                 </div>
                 <button type="submit">Create Account</button>
